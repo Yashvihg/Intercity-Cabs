@@ -1,0 +1,207 @@
+.search-box {
+    background-color: white;
+    position: absolute;
+    width: 30%;
+    height: 95%;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    overflow-y: auto;
+}
+
+.google-map-box {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.btns {
+    border: 1px solid #E98605;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.3rem;
+    background: #e9860563;
+    color: #B01432;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.input-field {
+    border: 1px solid rgba(0, 0, 0, 0.257);
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+}
+
+.mic-icon {
+    padding-left: 3rem;
+}
+
+.heading {
+    text-align: left;
+    margin: 0.2rem 0;
+}
+
+.list-items {
+    padding: 0;
+}
+
+.item-box {
+    list-style-type: none;
+    border: 1.2px solid #E98605;
+    margin-bottom: 0.6rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction:'column';
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.3rem 0;
+    text-align: left;
+}
+
+.route-image {
+    padding-right: 0.5rem;
+}
+
+.list-data{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.free-label {
+    color: #32936F;
+    background-color: #32936f48;
+    width: max-content;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+.toilet-locations {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B01432;
+    border-radius: 1rem;
+  }
+
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .bottom-drawer{
+        position: fixed;
+        width: 85%;
+        padding: 1rem;
+        padding-top: 0;
+        margin:0.5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        transform: none;
+        transition-duration: 0.5s;
+        overflow-x: hidden;
+    }
+
+    .btns {
+        padding: 0.2rem 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .buttons {
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+
+    .input-field {
+        width: 96%;
+    }
+    
+    .heading {
+        text-align: left;
+        margin: 0.2rem 0;
+        font-size: large;
+    }
+
+    .item-box {
+        margin-bottom: 0.5rem;
+        border-radius: 0.7rem;
+        width: 100%;
+        padding: 0.3rem 0;
+        text-align: left;
+    }
+
+    .toilet-locations {
+        font-size: 0.8rem;
+    }
+
+    .free-label {
+        padding: 0.1rem 0.5rem;
+    }
+
+    .toilet-indication-img {
+        height: 3rem;
+        width: 3rem;
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: white;
+      }
+      .overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+    
+    .toggle-button {
+        /* position: absolute; */
+        background-color: rgb(181, 181, 184, 0.565);
+        height: 0.5rem;
+        /* top: 1rem; */
+        right: 0.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        width: 3rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .btns {
+        padding: 0.3rem 1rem;
+        font-size: medium;
+    }
+  }

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  .intercity-cabs-component {
+    background: white;
+  }
+  .modal-labels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+  }
+  .input-values {
+    border: 0.1rem solid #b01432;
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1rem;
+    margin: auto;
+  }
+  input,
+  input:focus {
+    border: none;
+    outline: none;
+  }
+  .icons {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}

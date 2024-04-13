@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbf8e5;
+    height: 4rem;
+    padding: 0 1rem;
+  }
+
+  .footer-button {
+    outline: none;
+    padding: 0 3rem;
+    border: none;
+    background: none;
+  }
+  button:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    margin: 1.2rem;
+    background-color: white;
+    border-radius: 1.2rem;
+  }
+  .card-image {
+    width: 8rem;
+    height: 6rem;
+  }
+  .card-data {
+    width: 45%;
+    padding: 0.5rem;
+  }
+  .card-data_header {
+    margin: 0;
+    text-align: left;
+  }
+  .card-data_paragraph {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding-top: 0.5rem;
+    text-align: left;
+  }
+}
